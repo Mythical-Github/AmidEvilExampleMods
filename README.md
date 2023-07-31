@@ -14,3 +14,6 @@ in the dll modding folder there are two bats\
 you need to specify a few things, inside of them, the script inside shows you at the top\
 you can use either to build proj, compile example mod, move, then run game auto, for release or debug build of ue4ss\
 for the blueprint python script, you have to edit the paths at the top as well to your games
+
+Modding Discord Server:\
+https://discord.gg/cdUSaqwv
