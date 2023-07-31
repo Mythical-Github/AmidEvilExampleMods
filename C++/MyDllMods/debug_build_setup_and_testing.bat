@@ -57,8 +57,6 @@ if not exist "%solution%" (
     echo "Solution already exists. Skipping CMake."
 )
 
-pause
-
 
 rem Searching for MSBuild.exe for automated building
 for /f "tokens=*" %%i in ('dir /b /s "%ProgramFiles%\Microsoft Visual Studio\*" "%ProgramFiles(x86)%\Microsoft Visual Studio\*" 2^>nul ^| findstr /i "\\MSBuild\\Current\\Bin\\MSBuild.exe"') do (
