@@ -8,19 +8,19 @@ rem These are the ones you need to manually specify
 rem This is the main game folder, like "../steamapps/common/Remnant2"
 rem Example:
 rem set "game_dir=C:\games\manual_install\Remnant2"
-set "game_dir=C:\games\manual_install\Remnant2"
+set "game_dir=C:/Program Files (x86)/Steam/steamapps/common/Amid Evil"
 
 
 rem This is the game project name, like the latter dir here "../steamapps/common/Remnant2/Remnant2"
 rem Example:
 rem set "game_project_name=Remnant2"
-set "game_project_name=Remnant2"
+set "game_project_name=AmidEvil"
 
 
 rem This is the name of the game's exe in the Binaries/Win64 directory
 rem Example:
 rem set "%game_project_name%=Remnant2-Win64-Shipping.exe"
-set "game_exe_name=Remnant2-Win64-Shipping.exe"
+set "game_exe_name=AmidEvil-Win64-Shipping.exe"
 
 
 rem Code below this shouldn't need manual changes
@@ -56,6 +56,8 @@ if not exist "%solution%" (
 ) else (
     echo "Solution already exists. Skipping CMake."
 )
+
+pause
 
 
 rem Searching for MSBuild.exe for automated building
